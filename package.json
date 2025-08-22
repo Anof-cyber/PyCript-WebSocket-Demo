@@ -1,0 +1,9 @@
+{
+  "name": "websocket-aes-chat",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^8.0.0",
+    "crypto-js": "^4.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "websocket-aes-script",
+  "version": "1.0.0",
+  "main": "encrypt.js",
+  "type": "commonjs",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "commander": "^11.0.0"
+  }
+}
