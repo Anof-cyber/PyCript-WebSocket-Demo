@@ -39,17 +39,6 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 - Navigate to the Proxy --> Web Socket History
 - Select the Encrypted Web Socket message and click on PyCript Web Socket Data Editor Tab to see the decrypted message
 
-#### Encrypt a file
-```sh
-node encrypt.js -d <file_path>
-```
-
-#### Decrypt a file
-```sh
-node decrypt.js -d <file_path>
-```
-
-Both scripts expect the file to contain a string (for encryption) or an encrypted string (for decryption).
 
 ## Configuration
 - The AES secret key is hardcoded as `my_secret_key_123` in all scripts and the server. Change it in all places for production use.
